@@ -11,7 +11,7 @@ ext.versions = [
 
         facebookSdkVersion                : "4.18.0",
 
-        butterKnifeVersion                : "8.4.0",
+        butterKnifeVersion                : "8.5.1",
         bundlerVersion                    : "1.1.2",
         eventBusVersion                   : "3.0.0",
 
@@ -29,7 +29,7 @@ ext.versions = [
         rxJavaVersion                     : "1.2.4",
         rxAndroidVersion                  : "1.2.1",
 
-        gsonVersion                       : "2.8",
+        gsonVersion                       : "2.8.0",
         cookiesJarVersion                 : "v1.0.0",
         networkSamplerVersion             : "connectionclass:1.0.1",
 

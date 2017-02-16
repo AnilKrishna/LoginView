@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.jakewharton.butterknife'
 
 android {
     compileSdkVersion versions.compileSdk
@@ -34,8 +35,27 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 
-    //SUPPORT LIB
+    //SUPPORT LIBS
+    compile libraries.supportV13
+    compile libraries.supportDesign
     compile libraries.supportAppCompat
+
+    //Zeta
+    compile libraries.zetaUtils
+
+    //ANNOTATION
+    compile libraries.jsr305
+    compile libraries.javaxAnnotationApi
+
+    //PROGRAMMING
+    provided libraries.autoValue
+    annotationProcessor libraries.autoValueParcel
+    compile libraries.butterKnife
+    annotationProcessor libraries.butterKnifeCompiler
+    
+    compile libraries.gson
+    compile libraries.facebookSdk
+    compile libraries.playServicesAuthentication
 
     //TESTING
     testCompile libraries.junit
