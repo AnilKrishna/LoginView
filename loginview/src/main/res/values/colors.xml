@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#3F51B5</color>
+    <color name="dark_primary_color">#303F9F</color>
+    <color name="accent_color">#FF5722</color>
+    <color name="card_background">#efefef</color>
+    <color name="facebook_brand_color">#3B5998</color>
+    <color name="google_plus_brand_color">#dc4e41</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="login_primary">#009688</color> <!-- 500 -->
+    <color name="login_primary_dark">#00796B</color> <!-- 700 -->
+    <color name="login_primary_darker">#00695C</color> <!-- 800 -->
+    <color name="login_accent">#FFFFFF</color>
+    <color name="iron">#CCCCCC</color>
+
+    <color name="metagalactic_stroke_grey">#D6D6D6</color>
+    <color name="metagalactic_fade_away_grey">#F7F7F7</color>
+
+    <color name="zeta_white">#ffffff</color>
+
+    <!-- indigo -->
+    <color name="zeta_md_indigo_50">#E8EAF6</color>
+    <color name="zeta_md_indigo_100">#C5CAE9</color>
+    <color name="zeta_md_indigo_200">#9FA8DA</color>
+    <color name="zeta_md_indigo_300">#7986CB</color>
+    <color name="zeta_md_indigo_400">#5C6BC0</color>
+    <color name="zeta_md_indigo_500">#3F51B5</color>
+    <color name="zeta_md_indigo_600">#3949AB</color>
+    <color name="zeta_md_indigo_700">#303F9F</color>
+    <color name="zeta_md_indigo_800">#283593</color>
+    <color name="zeta_md_indigo_900">#1A237E</color>
+    <color name="zeta_md_indigo_A100">#8C9EFF</color>
+    <color name="zeta_md_indigo_A200">#536DFE</color>
+    <color name="zeta_md_indigo_A400">#3D5AFE</color>
+    <color name="zeta_md_indigo_A700">#304FFE</color>
+
+</resources>

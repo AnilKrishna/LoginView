@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <size android:height="@dimen/divider_height" />
+    <stroke
+        android:width="@dimen/divider_width"
+        android:color="@color/metagalactic_stroke_grey" />
+    <solid android:color="@color/metagalactic_fade_away_grey" />
+</shape>

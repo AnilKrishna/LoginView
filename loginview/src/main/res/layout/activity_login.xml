@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/metagalactic_coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.github.metagalactic.loginview.activities.LoginActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/metagalactic_app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/metagalactic_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:id="@+id/metagalactic_scroll_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_4x_padding_margin"
+            android:layout_marginRight="@dimen/default_4x_padding_margin"
+            android:animateLayoutChanges="true"
+            android:divider="@drawable/divider_background"
+            android:orientation="vertical"
+            android:paddingTop="?attr/actionBarSize"
+            android:showDividers="middle|end">
+
+            <ImageView
+                android:id="@+id/metagalactic_app_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/app_logo_height"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/default_half_padding_margin"
+                android:layout_marginTop="@dimen/default_half_padding_margin"
+                android:contentDescription="@string/app_name" />
+
+            <!-- CUSTOM LOGIN -->
+            <ViewStub
+                android:id="@+id/metagalactic_custom_login_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/default_half_padding_margin"
+                android:layout_marginTop="@dimen/default_half_padding_margin"
+                android:inflatedId="@+id/metagalactic_custom_login_component"
+                android:layout="@layout/view_stub_custom_login_inflatable" />
+
+            <!-- FACEBOOK LOGIN -->
+            <ViewStub
+                android:id="@+id/metagalactic_facebook_login_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/default_half_padding_margin"
+                android:layout_marginTop="@dimen/default_half_padding_margin"
+                android:inflatedId="@+id/metagalactic_facebook_login_component"
+                android:layout="@layout/view_stub_facebook_login_inflatable" />
+
+            <!-- GOOGLE LOGIN -->
+            <ViewStub
+                android:id="@+id/metagalactic_google_login_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/default_half_padding_margin"
+                android:layout_marginTop="@dimen/default_half_padding_margin"
+                android:inflatedId="@+id/metagalactic_google_login_component"
+                android:layout="@layout/view_stub_google_login_inflatable" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

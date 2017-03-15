@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "633275104278",
+    "project_id": "sampleloginview"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633275104278:android:242d89a58d854f35",
+        "android_client_info": {
+          "package_name": "com.github.sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633275104278-s879kbnf2gcjlj1lbps6c7njai73slva.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "633275104278-got0tvm4bpcqlq47915h165cchhlhjdk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.github.sample",
+            "certificate_hash": "342d1ea6eb7b7d55d9051c77a846fdd1634573a2"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD24lRrQk6WRR0vcru0dXZA7GPvu52Qd0M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
